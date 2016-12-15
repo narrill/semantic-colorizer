@@ -12,12 +12,16 @@
     <Tags>Semantic Syntax Highlighting Color</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="14.0" />
+    <InstallationTarget Version="[15.0,16.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[15.0,16.0)" Id="Microsoft.VisualStudio.Pro" />
   </Installation>
   <Dependencies>
-    <Dependency d:Source="Installed" Version="[1.0.0.50618,2.0)" Id="0b5e8ddb-f12d-4131-a71d-77acc26a798f" DisplayName="Roslyn Language Services" />
   </Dependencies>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
   </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0.26004.1,16.0)" DisplayName="Visual Studio core editor" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.Compiler" Version="[15.0.26004.1,16.0)" DisplayName="C# and Visual Basic Roslyn compilers" />
+  </Prerequisites>
 </PackageManifest>
