@@ -1,5 +1,5 @@
-2016-12-15 V1.1.6
-* Enabled VS2017 support
+2016-12-16 V1.2.0
+* Added VS2017 support
 
 2015-11-11 V1.1.4
 * More Robust Handling (thx Wakusei)
