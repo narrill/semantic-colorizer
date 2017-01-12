@@ -14,7 +14,7 @@ namespace SemanticColorizer
     {
         public SemanticFieldFormat() {
             DisplayName = "Semantic Field";
-            ForegroundColor = Colors.SaddleBrown;
+            ForegroundColor = Colors.Peru;
         }
     }
 
@@ -88,7 +88,7 @@ namespace SemanticColorizer
     {
         public SemanticTypeParameterFormat() {
             DisplayName = "Semantic Type Parameter";
-            ForegroundColor = Colors.SlateGray;
+            ForegroundColor = Colors.LightSlateGray;
         }
     }
 
@@ -101,7 +101,7 @@ namespace SemanticColorizer
     {
         public SemanticParameterFormat() {
             DisplayName = "Semantic Parameter";
-            ForegroundColor = Colors.SlateGray;
+            ForegroundColor = Colors.LightSlateGray;
         }
     }
 
